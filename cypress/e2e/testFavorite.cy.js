@@ -39,7 +39,7 @@ describe ("test Favorite", () => {
 
     // Обратная проверка первого теста. Если книга первым тестом была удалена из избранного -> 
     // добавляем обратно и наоборот.
-    it.only("add or delete a book from favorites chart 2", () => {
+    it("add or delete a book from favorites chart 2", () => {
         cy.visit('/');
         cy.login("test@test.com", "test");
         cy.wait(1000);
