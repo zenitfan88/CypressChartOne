@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test:mobile": "cypress open --browser chrome --config-file config.mobilie.js",
+    "test:notebook": "cypress open --browser chrome --config-file config.notebook.js",
     "test:chromeD": "cypress open --browser chrome",
     "test:chromeS": "cypress run --browser chrome",
     "test:edgeD": "cypress open --browser edge",

@@ -51,10 +51,9 @@ describe ("test Favorite", () => {
                     "Please add some book to favorit on home page!");
             } else {
                 cy.add();
-                cy.get('.card-title').should('have.text',
-                "The Lord of the Rings");
+                cy.get('.card-title').should('have.text', "The Lord of the Rings");
             }
-          });
+        });
       
-      });
+    });
 })
